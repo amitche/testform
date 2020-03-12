@@ -1,0 +1,95 @@
+/* CSS Selectors (ELEMENT)*/
+
+/* header section formatted with image and text colour*/
+header {
+  
+    text-align: center;
+    display:block;
+    height:110px;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:darkseagreen;
+	   
+} 
+/* Main section formatted display for compatibility */
+main
+{
+	display: block;
+    
+}
+
+/* page body background colour and margins */
+body{
+    background-color: black;
+    margin-left:5%;
+    margin-right:5%;
+    color: white;
+}
+
+/*  h1 and h2 Element will be displayed in dark red with a red border */
+h1,h2 { 
+    color:darkred;
+}
+
+/*  paragraph p Element  will be displayed with the following font serif  and color darkgrey  */
+p {
+    font-family: serif;
+    color:darkslategrey     
+}
+
+
+/* anchor a Element formatted with colour and font size and center */
+a{
+    color:blue;
+    font-size:15px;
+    text-align: center;
+        text-decoration:none;
+}
+
+/* CSS Selectors (CLASS)*/
+
+/* anchor Class anchorLarge a Element formatted with colour and font size */
+.anchorLarge
+{
+    color:chartreuse;
+    font-size:35px;
+}
+
+/* Select CLASS underlinedText will under line text for any element where used*/
+.underlinedText
+{
+    text-decoration:underline;
+}
+
+/* Select CLASS centerText will center text for any element where used*/
+.centerText
+{
+    text-align: center;
+}
+
+
+/* Select CLASS imageFullWidthContent to display images Full Width of Screen*/
+.imageFullWidthContent
+{
+    width:100%;
+}
+
+/* CSS Selectors (ID)*/
+/*  CSS Selectors ID mainText formatting  */
+#mainText
+{
+    color:black;
+    font-family:arial;
+    text-align: justify
+}
+
+
+
+.anchorSmall {
+    color:chocolate;
+    font-size: 40px;
+}
+
+.
